@@ -1,0 +1,72 @@
+body{
+    background: #E5D9F2;
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+}
+
+h1{
+    font-size: 55px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    background-color :#FFFFFF;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.item{
+    display: flex;
+    width: 45%;
+    border-radius: 10px;
+    background-color: #F5EFFF;
+    margin: 0;
+}
+
+.picture{
+    height: 100%;
+    width: 200px;
+    border-radius: 10px 0 0 10px;
+    object-fit: cover;
+
+}
+
+.note{
+    margin: 10px;
+}
+
+.passage{
+    font-style: italic;
+    font-size: 12px;
+}
+
+.note-title{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.button-container{
+    text-align: right;
+
+}
+
+button{
+    background: none;
+    font-family: 'Titillium Web', sans-serif;
+    height: 30px;
+    border: 1.5px solid #FF0000;
+    border-color: #000000;
+    border-radius: 5px;
+    font-weight: light;
+    font-size: 15px;
+
+
+}
+
+.hr2{
+    border-color: #FEF9D9;
+}
